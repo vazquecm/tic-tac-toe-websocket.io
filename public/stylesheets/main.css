@@ -1,0 +1,32 @@
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  color: #973aa3;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-inline {
+  margin: 40px;
+}
+
+#game-container {
+  width: 400px;
+  position: relative;
+  left: 55%;
+  margin-left: -200px;
+  margin-top: 30px;
+}
+
+#game-container button {
+  height: 100px;
+  width: 100px;
+}
+
+#play-again {
+  display: inline-block;
+  font-size: 25px;
+  margin: 50px;
+  margin-left: 90px;
+
+}

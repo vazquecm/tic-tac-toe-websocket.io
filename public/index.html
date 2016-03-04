@@ -1,17 +1,59 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 
 <html>
 
   <head>
-    <title>Game</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- STYLESHEETS -->
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/stylesheets/main.css" rel="stylesheet" type="text/css"/>
+
+    <title>Tic Tac Toe</title>
+
   </head>
 
     <body>
-      <h1>Welcome to the Tic Tac Toe Game!</h1>
+      <header>
+        <h1>Let's Play!</h1>
+      </header>
+
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="player-one"></label>
+            <input type="text" class="form-control" id="player-one" placeholder="Player One">
+          </div>
+          <div class="form-group">
+            <label for="player-two"></label>
+            <input type="text" class="form-control" id="player -two" placeholder="Player Two">
+          </div>
+        </form>
+
+        <div id="game-container" class="container-fluid">
+          <div class="first-row">
+            <button id="number-one" class="col-md-4"></button>
+            <button id="number-two" class="col-md-4"></button>
+            <button id="number-three" class="col-md-4"></button>
+          </div>
+          <div class="second-row">
+            <button id="number-four" class="col-md-4"></button>
+            <button id="number-five" class="col-md-4"></button>
+            <button id="number-six" class="col-md-4"></button>
+          </div>
+          <div class="third-row">
+            <button id="number-seven" class="col-md-4"></button>
+            <button id="number-eight" class="col-md-4"></button>
+            <button id="number-nine" class="col-md-4"></button>
+          </div>
+          <div id="play-again">
+            <input class="btn btn-default" type="submit" value="Play Again!">
+          </div>
+      </div>
+
+
     </body>
-
-
-
-
 
 </html>
