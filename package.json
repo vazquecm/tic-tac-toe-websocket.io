@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe-websocket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "bower": "bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vazquecm/tic-tac-toe-websocket.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vazquecm/tic-tac-toe-websocket.io/issues"
+  },
+  "homepage": "https://github.com/vazquecm/tic-tac-toe-websocket.io#readme",
+  "dependencies": {
+    "bower": "^1.7.7"
+  }
+}
