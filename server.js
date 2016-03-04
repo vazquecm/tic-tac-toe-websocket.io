@@ -17,17 +17,6 @@ app.get('/', (request, response) => {
   response.sendFile('index.html');
 });
 
-
-
-
-
-
-
-
-
-
-
-
 app.listen(PORT, () => {
   console.log('we are listening');
 })
