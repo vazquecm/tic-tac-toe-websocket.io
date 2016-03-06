@@ -8,6 +8,7 @@ h1 {
 
 .form-inline {
   margin: 40px;
+
 }
 
 #game-container {
@@ -30,3 +31,31 @@ h1 {
   margin-left: 90px;
 
 }
+
+/**** MEDIA RESPONSIVENESS ****/
+
+/* Portrait and Landscapes for Phones */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait and Landscape for Tablets */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+}
+
+
